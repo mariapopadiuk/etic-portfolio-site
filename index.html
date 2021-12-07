@@ -3,6 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
   <link rel="stylesheet" href="style.css">
   <title>RRR</title>
 </head>
@@ -10,25 +12,38 @@
 <body>
   <div class="container">
     <!-- Start header -->
-    <header class="header border-bottom">
+    <header class="header">
+      <div class="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
       <div class="navigation">
-        <div class="header-logo">RRR</div>
+        <div class="header-logo">
+          <a href="#home"><img src="images/logo small.png" alt="logo: word recycle"></a>
+        </div>
+
         <div class="nav-links">
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <a href="#">About us</a>
+              <a href="#about-us">About us</a>
             </li>
             <li>
-              <a href="#">Gallery</a>
+              <a href="#our work">Our Work</a>
             </li>
             <li>
               <a href="#">Contact us</a>
             </li>
           </ul>
         </div>
+
+      </div>
+      <div class="header-title">
+        <h2 class="title-home">BE RESPONSIBLE FOR YOUR GARBACHE</h2>
+        <a href="#contact-us"> <button class="btn-home">Join Us</button></a>
       </div>
 
     </header>
@@ -38,9 +53,9 @@
 
     <!-- About us -->
     <section class="about-us">
-      <h2 class="title">About us</h2>
+      <h2 class="title" id="about-us">About us</h2>
       <div class="about-us__container">
-        <img src="images/img3.webp" alt="Girls with collected garbage from beach" class="about-us__foto">
+        <img src="images/img3.webp" alt="Girls with collected garbage from beach" class="about-us__foto" loading="lazy">
         <div class="about-us__text">
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa voluptates laudantium suscipit dicta libero
@@ -56,68 +71,94 @@
     </section>
     <!-- End about us -->
 
-    <!-- Start gallery -->
-    <section class="gallery">
-      <h2 class="title">Happy days</h2>
+    <!-- Start our work -->
+    <section class="our work">
+      <h2 class="title" id="our work">Our Work</h2>
       <div class="slider">
         <div class="slide-track">
 
           <!-- Slide foto -->
           <div class="slide">
-            <img class="slider-img" src="images/sl-img1.webp" alt="Maria and Isabella with trash collected">
+            <img class="slider-img" src="images/sl-img1.webp" alt="Maria and Isabella with trash collected"
+              loading="lazy">
           </div>
           <div class="slide">
-            <img class="slider-img" src="images/sl-img2.webp" alt="Girls ith trash collected 2 ">
+            <img class="slider-img" src="images/sl-img2.webp" alt="Girls ith trash collected 2" loading="lazy">
           </div>
           <div class="slide">
-            <img class="slider-img" src="images/sl-img4.webp" alt="Isabella with trash collected in the forest">
+            <img class="slider-img" src="images/sl-img4.webp" alt="Isabella with trash collected in the forest"
+              loading="lazy">
           </div>
           <div class="slide">
-            <img class="slider-img" src="images/sl-img5.webp" alt="Maria with trash collected in the beach">
+            <img class="slider-img" src="images/sl-img5.webp" alt="Maria with trash collected in the beach"
+              loading="lazy">
           </div>
           <div class="slide">
             <img class="slider-img" src="images/sl-img6.webp"
-              alt="Maria and Isabella with trash collected in the beach 2">
+              alt="Maria and Isabella with trash collected in the beach 2" loading="lazy">
           </div>
           <div class="slide">
-            <img class="slider-img" src="images/sl-img7.webp" alt="difficult and longer way with trash collected">
+            <img class="slider-img" src="images/sl-img7.webp" alt="difficult and longer way with trash collected"
+              loading="lazy">
           </div>
           <div class="slide">
-            <img class="slider-img" src="images/sl-img8.webp" alt="Isabella carrying collected trash on the back">
+            <img class="slider-img" src="images/sl-img8.webp" alt="Isabella carrying collected trash on the back"
+              loading="lazy">
           </div>
           <div class="slide">
-            <img class="slider-img" src="images/sl-img9.webp" alt="collected trash on front the beach">
+            <img class="slider-img" src="images/sl-img9.webp" alt="collected trash on front the beach" loading="lazy">
           </div>
 
           <!-- Slide Double -->
           <div class="slide">
-            <img class="slider-img" src="images/sl-img1.webp" alt="">
+            <img class="slider-img" src="images/sl-img1.webp" alt="Maria and Isabella with trash collected"
+              loading="lazy">
           </div>
           <div class="slide">
-            <img class="slider-img" src="images/sl-img2.webp" alt="">
+            <img class="slider-img" src="images/sl-img2.webp" alt="Girls ith trash collected 2" loading="lazy">
           </div>
           <div class="slide">
-            <img class="slider-img" src="images/sl-img4.webp" alt="">
+            <img class="slider-img" src="images/sl-img4.webp" alt="Isabella with trash collected in the forest"
+              loading="lazy">
           </div>
           <div class="slide">
-            <img class="slider-img" src="images/sl-img5.webp" alt="">
+            <img class="slider-img" src="images/sl-img5.webp" alt="Maria with trash collected in the beach"
+              loading="lazy">
           </div>
           <div class="slide">
-            <img class="slider-img" src="images/sl-img6.webp" alt="">
+            <img class="slider-img" src="images/sl-img6.webp"
+              alt="Maria and Isabella with trash collected in the beach 2" loading="lazy">
           </div>
           <div class="slide">
-            <img class="slider-img" src="images/sl-img7.webp" alt="">
+            <img class="slider-img" src="images/sl-img7.webp" alt="difficult and longer way with trash collected"
+              loading="lazy">
           </div>
           <div class="slide">
-            <img class="slider-img" src="images/sl-img8.webp">
+            <img class="slider-img" src="images/sl-img8.webp" alt="Isabella carrying collected trash on the back"
+              loading="lazy">
           </div>
           <div class="slide">
-            <img class="slider-img" src="images/sl-img9.webp" alt="">
+            <img class="slider-img" src="images/sl-img9.webp" alt="collected trash on front the beach" loading="lazy">
           </div>
         </div>
       </div>
+
+      <!-- gallery responsive -->
+      <div class="foto-wraper">
+        <div class="first-line">
+          <img src="images/sl-img6.webp" alt="">
+          <img src="images/sl-img7.webp" alt="">
+          <img src="images/sl-img8.webp" alt="">
+        </div>
+
+        <div class="second-line">
+          <img src="images/sl-img9.webp" alt="">
+          <img src="images/sl-img10.webp" alt="">
+          <img src="images/sl-img1.webp" alt="">
+        </div>
+      </div>
     </section>
-    <!-- End gallery -->
+    <!-- End our work -->
 
 
     <!-- Start table section -->
@@ -144,13 +185,14 @@
             <td data-label="Resin Identification Code">
               <img src="images/1.png" style="width: 70px">
             </td>
-            <td data-label="Abbreviation Recyclabe?"><span class="plastic-abr">PET</span>  <br>
+            <td data-label="Abbreviation Recyclabe?"><span class="plastic-abr">PET</span> <br>
               Commonly recycled</td>
             <td data-label="How long does it take to decompose in nature">5-4 Years</td>
             <td data-label="Commonly used for">Soda bottles, Water bottles, Beer bottles, Salad dressing bottles, Peanut
               Butter jurs, Jelly jars, Rope, Combs, Tote bags, Medicine jars, Clothing and carpet fiber, Shampoo and
               mouthwash bottle.</td>
-            <td data-label="Can be recycled into"> <span>PET</span> is commonly recycled although it should not be reused. It can be
+            <td data-label="Can be recycled into"> <span>PET</span> is commonly recycled although it should not be
+              reused. It can be
               recycled into: fleece garments, carpets, stuffing for pillows, winter jacket, sleeping bags, teniss ball
               felt, rope, other plastic botlles.</td>
           </tr>
@@ -174,9 +216,9 @@
           <tr>
             <td data-label="Polymer Name">Polyvinyl Chloride</td>
             <td data-label="Resin Identification Code">
-            <img src="images/3.png" style="width: 70px">
-          </td>
-            <td data-label="Abbreviation Recyclabe?"><span class="plastic-abr">PVC</span>  <br>Sometimes recycled</td>
+              <img src="images/3.png" style="width: 70px">
+            </td>
+            <td data-label="Abbreviation Recyclabe?"><span class="plastic-abr">PVC</span> <br>Sometimes recycled</td>
             <td data-label="How long does it take to decompose in nature">Never</td>
             <td data-label="Commonly used for">Plumbing pipes, Credit cards, Carpet backing, Floor covering, Window and
               door frames, Rain gutters, Pipes and fittings, Wire and cable sheatings, Synthetic leather products,
@@ -192,7 +234,9 @@
             <td data-label="Resin Identification Code">
               <img src="images/4.png" style="width: 70px">
             </td>
-            <td data-label="Abbreviation Recyclabe?"><spna class="plastic-abr">LDPE</spna><br>Sometimes recycled</td>
+            <td data-label="Abbreviation Recyclabe?">
+              <spna class="plastic-abr">LDPE</spna><br>Sometimes recycled
+            </td>
             <td data-label="How long does it take to decompose in nature">500-1000 years</td>
             <td data-label="Commonly used for">Plastic wrap, Sandwich bags, Bread bags, Squeezable bottles, Plastic
               grocery bags, Garbage bags, Food storage containers, Irrigation pipes, Thick shoping bags, Wire and cable
@@ -222,7 +266,8 @@
             <td data-label="Resin Identification Code">
               <img src="images/6.png" style="width: 70px">
             </td>
-            <td data-label="Abbreviation Recyclabe?"><span class="plastic-abr">PS</span><br>Commonly recycled(but difficult to do)</td>
+            <td data-label="Abbreviation Recyclabe?"><span class="plastic-abr">PS</span><br>Commonly recycled(but
+              difficult to do)</td>
             <td data-label="How long does it take to decompose in nature">50 years</td>
             <td data-label="Commonly used for">Disposable foam cups, Take-out food containers, Plastic cutlery, Egg
               cartons, Fast food trays, Video cases, Seed trays, Coat hangers, Low cost brittle toys, Foam packing,
@@ -237,8 +282,9 @@
             <td data-label="Resin Identification Code">
               <img src="images/7.png" style="width: 70px">
             </td>
-            <td data-label="Abbreviation Recyclabe?"><span class="plastic-abr">Acrylic, fiberglass, nylonpolycarbonate and polylastic
-              acid</span> <br>Difficult to Recycle</td>
+            <td data-label="Abbreviation Recyclabe?"><span class="plastic-abr">Acrylic, fiberglass, nylonpolycarbonate
+                and polylastic
+                acid</span> <br>Difficult to Recycle</td>
             <td data-label="How long does it take to decompose in nature">Majority of these plastic NEVER</td>
             <td data-label="Commonly used for">Baby bottles, Sippy cups, Large, multiple gallon watter bottles, Medical
               storage containers, Eyeglasses, Exterior lighting fixtures, Metal food can linings, CD's and DVD's, Dental
@@ -258,63 +304,73 @@
     <section class="card-section">
       <h2 class="title">What you can do</h2>
       <div class="action-items">
+
         <div class="action-item">
+          <img class="bg-card1" src="images/card1.webp" alt="">
           <div class="item-order">1</div>
           <h2 class="text-title">Refuse</h2>
-          <p class="text" >Single-use plastic</p>
+          <p class="text">Single-use plastic</p>
         </div>
+
         <div class="action-item">
+          <img class="bg-card1" src="images/card2.webp" alt="">
           <div class="item-order">2</div>
           <h2 class="text-title">Reduce</h2>
-          <p class="text" >The amount of plastic you use</p>
+          <p class="text">The amount of <br> plastic you use</p>
         </div>
         <div class="action-item">
+          <img class="bg-card1" src="images/card3.webp" alt="">
           <div class="item-order">3</div>
           <h2 class="text-title">Reuse</h2>
-          <p class="text">Containers and plastic bottles</p>
+          <p class="text">Containers and <br> plastic bottles</p>
         </div>
         <div class="action-item">
+          <img class="bg-card1" src="images/card4.webp" alt="">
           <div class="item-order">4</div>
           <h2 class="text-title">Recycle</h2>
-          <p class="text">Plastic you cannot reuse</p>
+          <p class="text">Plastic you <br> cannot reuse</p>
         </div>
         <div class="action-item">
+          <img class="bg-card1" src="images/card5.webp" alt="">
           <div class="item-order">5</div>
           <h2 class="text-title">Re-Think</h2>
-          <p class="text">The products you buy</p>
+          <p class="text">The products <br> you buy</p>
         </div>
-        
       </div>
     </section>
     <!-- End what what you can do -->
 
 
     <!-- Start Footer -->
-    <!-- <footer class="footer">
-      <form class="footer-form" action="#">
-        <h5 class="title">Contact us</h5>
-        <input type="email" required placeholder="Your email">
-        <textarea name="text" cols="30" rows="10" placeholder="Message"></textarea>
-        <input type="submit" value="Send">
-      </form>
-
+    <footer class="footer-container" id="contact-us">
       <div class="footer-info">
-        <div>&copy; RRR</div>
-        <a href="mailto:mpopadiuk13@gmail.com">mpopadiuk13@gmail.com</a>
-        <div>
-          Developed by Maria Popadiuk
-        </div>
-        <div class="social">
 
+        <div class="footer-contact">
+          <h3 class="footer-title">Contact</h3>
+            <div class="social">
+            <div><a href="#"><i class="fal fa-at"> mariapopadiuk@gmail.com</i></a></div>
+            <div><a href="#"><i class="fal fa-phone"> 93 41 13 417</i></a></div>
+            <div><a href="https://www.instagram.com/popadiukmaria/"><i class="fab fa-instagram"> popadiukmaria</i></a></div>
+            <div><a href="https://www.linkedin.com/in/maria-popadiuk-51a528202/"><i class="fab fa-linkedin">  Maria Popadiuk</i></a></div>
+          </div>
         </div>
+
+        <div class="footer-middle">
+          <div class="footer-logo"><img src="images/logo footer.png" alt=""></div>
+          <p class="footer-text">Development and designed <br> Maria Popadiuk</p>
+          <div class="footer-text">&copy; 2021</div>
+        </div>
+
+        <form action="#" class="footer-form" >
+          <h3 class="footer-title">Let’s start something great</h3>
+          <div class="form-email"><input type="text" required placeholder="Your email"></div>
+          <div><textarea name="text" cols="25" rows="5" placeholder="Message"></textarea></div>
+          <div class="footer-button"><input class="footer-btn" type="submit" value="Send"></div>
+        </form>
       </div>
-    </footer> -->
+    </footer>
 
     <!-- End Footer -->
-
-
-
   </div>
 </body>
-
 </html>
