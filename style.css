@@ -5,15 +5,11 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-}
-body{
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 1px;
   color: #333;
 }
-a{
-  color: #333;  
-}
+
 .title{
   margin: 45px 0;
   text-align: center;
@@ -360,9 +356,9 @@ padding: 0 40px;
 .table-text
 {
   text-align: center;
-  padding-bottom: 20px ;
+  padding: 0 20px 20px 20px ;
   line-height: 25px;
-  align-items: center;
+  
 }
 .table {
   color: #333;
@@ -410,6 +406,11 @@ padding: 0 40px;
   
 
   /* START responsive TABLE*/
+  @media(max-width:640px){
+    .table-text{
+      margin: 20px;
+    }
+  }
    @media(max-width:890px){
     .table-section{
       display: none;
@@ -531,7 +532,6 @@ padding: 0 40px;
   margin-bottom: 20px;
   margin-top: 20px;
   color: #555;
-  
 }
 .social{
 text-align: center;
