@@ -17,6 +17,8 @@ a{
 .title{
   margin: 45px 0;
   text-align: center;
+  text-decoration: underline solid 4px #2DB621;
+  text-underline-position: under;
 }
 
 
@@ -184,6 +186,7 @@ padding: 0 40px;
   display: flex;
   width: 100%; 
 }
+
 .about-us__foto{
   width: 360px;
   height: 460px;
