@@ -637,6 +637,7 @@ color: #6B9AD1;
   form{
     width: 50%;
     margin: 0 auto;
+    flex-direction: row-reverse;
   }
   .footer-logo img{
     width: 25%;
