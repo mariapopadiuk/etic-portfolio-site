@@ -505,6 +505,20 @@ padding: 0 40px;
     font-size: 30px;
   }
 
+  /* CODPEN */
+  .toggle-word:after{
+    content: "";
+    animation: toggle 2s linear infinite;
+  }
+  @keyframes toggle {
+    0%{
+      content: "PLANET";
+    }
+    100%{
+      content: "FUTURE";
+    }
+  }
+
   .text{
     position: absolute;
     color: #fff;
