@@ -89,22 +89,12 @@ padding: 0 40px;
   text-align: center;
 }
 .title-home{
+  
   color: white;
   letter-spacing: 2px;
   line-height: 40px;
   margin-bottom: 15px;
- text-shadow: 2px 2px 2px rgb(0, 0, 0, .5);
-}
-.btn-home{
-  background-color: #2DB621;
-  width: 150px;
-  height: 40px;
-  border-radius: 20px;
-  color: white;
-  font-weight: bold;
-  font-size: 15px;
-  border: none;
-  cursor: pointer;
+ text-shadow: 2px 2px 2px rgb(0, 0, 0, .9);
 }
 /* start burger menu */
 .hamburger{
@@ -145,6 +135,7 @@ padding: 0 40px;
   .header-logo{
     width: 100%;
   }
+
   .nav-links{
     display: none;
     width: 100%;
@@ -192,11 +183,21 @@ padding: 0 40px;
 .about-us__foto{
   width: 360px;
   height: 460px;
+  padding: 10px;
 }
 .about-us__text{
+  width: 50%;
   text-align: center;
-  padding: 20px 80px;
+  margin: 10px 20px;
   line-height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.about-us__text p{
+  vertical-align: middle;
+  
 }
 /* End about us */
 
@@ -212,8 +213,10 @@ padding: 0 40px;
   .about-us__text{
     display: block;
     text-align: center;
-    padding: 10px 20px;
-    
+    width: 100%;
+  }
+  .about-us__text p{
+    padding: 10px 20px 0 20px;
   }
 }
 @media(max-width:730px){
@@ -226,16 +229,19 @@ padding: 0 40px;
   }
   .about-us__text{
     text-align: center;
-    padding: 10px 20px;
+    width: 100%;
+  }
+  .about-us__text p{
+    padding: 10px 20px 0 20px;
   }
 }
  /* padding do texto */
-@media(max-width:870px){
+/* @media(max-width:870px){
   .about-us__text{
     text-align: center;
-    padding: 10px 20px;
+   
   }
-}
+} */
 /*END RESPONSIVE ABOUT US */
 
 
@@ -637,7 +643,6 @@ color: #6B9AD1;
   form{
     width: 50%;
     margin: 0 auto;
-    flex-direction: row-reverse;
   }
   .footer-logo img{
     width: 25%;
