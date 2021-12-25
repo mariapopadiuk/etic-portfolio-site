@@ -35,6 +35,10 @@
   margin: 0 auto;
 }
 
+td img {
+  width: 70px;
+}
+
 /* Start header */
 .header {
   width: 100%;
@@ -82,6 +86,7 @@
 }
 .header-logo img {
   height: 40px;
+  width: 110px;
 }
 .header-title {
   margin-top: 160px;
@@ -157,6 +162,9 @@
   .hamburger:hover ~ .navigation > .nav-links {
     display: block;
   }
+  /* transform burger */
+
+  
   .nav-links:hover {
     display: block;
   }
@@ -523,7 +531,8 @@
   margin-bottom: 20px;
 }
 .footer-logo img {
-  max-width: 50%;
+  height: 50px;
+  width: 115px;
 }
 .footer-text {
   line-height: 25px;
@@ -568,6 +577,15 @@ textarea {
   cursor: pointer;
   letter-spacing: 2px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.footer-network {
+  position: relative;
+}
+.footer-network > svg {
+  position: absolute;
+  top: 2px;
+  left: -20px;
 }
 
 .footer-btn:hover {
