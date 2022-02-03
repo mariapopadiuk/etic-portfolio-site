@@ -12,4 +12,26 @@ function init() {
     }
   }
   setInterval(changer, 1000);
+
+
+  //validation form
+  //transform notification
+//   const btnSend = document.querySelector('.footer-btn');
+
+//   const containernotif = document.querySelector('.container');
+
+//   btnSend.addEventListener('click', () => {
+//     createNotification();
+//   });
+
+//   function createNotification(){
+//     let notif = document.createElement('div');
+//     notif.classList.add('notification');
+//     notif.innerText = 'Fields must be required'
+
+//     containernotif.appendChild(notif);
+//   }
+//   setTimeout(() => {
+//     notif.remove();
+//   }, 2000);
 }
