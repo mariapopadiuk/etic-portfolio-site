@@ -1,0 +1,150 @@
+
+ footer {
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    height: 200px;
+    margin-top: 200px;
+}
+.footer-container {
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(16, 45, 208, 0),
+    rgba(124, 156, 214, 0.871)
+  );
+  
+}
+.footer-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 70px 0 30px 0;
+}
+/* footer left widget*/
+.footer-title {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  color: #555;
+}
+.social {
+  text-align: center;
+  line-height: 40px;
+}
+/* footer middle widget*/
+.footer-logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.footer-logo img {
+  width: 115px;
+}
+.footer-text {
+  line-height: 25px;
+  text-align: center;
+  padding-top: 35px;
+}
+
+/* footer right widget*/
+form {
+  align-items: center;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+.footer-button {
+  text-align: center;
+}
+.footer-btn {
+  background-color: #6b9ad1;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 2px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.footer-network {
+  position: relative;
+}
+.footer-network > svg {
+  position: absolute;
+  top: 2px;
+  left: -20px;
+}
+
+.footer-btn:hover {
+  background-color: #f4f4f4;
+  color: #6b9ad1;
+}
+
+/* toast */
+button{
+  background-color: thistle;
+  color: #333;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  font-family: inherit;
+}
+#container{
+position: fixed;
+bottom: 10px;
+right: 10px;
+}
+.toast{
+  margin: 1rem;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
+/* FOOTER RESPONSIVE */
+@media (max-width: 640px) {
+  .footer-info {
+    display: block;
+  }
+  form {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 770px) {
+  .footer-info {
+    display: block;
+  }
+  form {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .footer-logo img {
+    width: 25%;
+    margin-top: 30px;
+  }
+  .footer-text {
+    padding: 10px 0;
+  }
+}
